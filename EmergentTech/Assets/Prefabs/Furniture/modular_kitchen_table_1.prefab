@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3833401164622796576}
   - component: {fileID: 3833401164622026496}
   - component: {fileID: 3833401164620895680}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tabletop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 3833401164622796578}
   - component: {fileID: 3833401164622026498}
   - component: {fileID: 3833401164620895682}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 3833401164622796580}
   - component: {fileID: 3833401164622026500}
   - component: {fileID: 3833401164620895684}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: socle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +248,8 @@ GameObject:
   - component: {fileID: 3833401164622796582}
   - component: {fileID: 3833401164622026502}
   - component: {fileID: 3833401164620895686}
-  m_Layer: 0
+  - component: {fileID: 7501418848649055297}
+  m_Layer: 12
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -316,6 +317,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7501418848649055297
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3833401164623153926}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 102.73682, y: 55.147648, z: 73.749115}
+  m_Center: {x: -6.9849193e-10, y: 0.000012397769, z: 0.00001335144}
 --- !u!1 &3833401164623153928
 GameObject:
   m_ObjectHideFlags: 0
@@ -327,7 +341,7 @@ GameObject:
   - component: {fileID: 3833401164622796584}
   - component: {fileID: 3833401164622026506}
   - component: {fileID: 3833401164620895690}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: handles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -405,7 +419,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3833401164622796586}
   - component: {fileID: -7927678771357970495}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: modular_kitchen_table_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -448,4 +462,5 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 7501418848649055297}
   m_enum: 1

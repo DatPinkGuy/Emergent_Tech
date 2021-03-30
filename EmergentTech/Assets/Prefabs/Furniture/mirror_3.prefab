@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 6611394509137544530}
   - component: {fileID: 6611394509138347380}
   - component: {fileID: 6611394509139445684}
-  m_Layer: 0
+  - component: {fileID: 4628962179207273949}
+  m_Layer: 12
   m_Name: frame_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,6 +80,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4628962179207273949
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6611394509137451378}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 45.833454, y: 3.864304, z: 47.504543}
+  m_Center: {x: 11.264914, y: -0.0000022053719, z: 0.000001907353}
 --- !u!1 &6611394509137451380
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6611394509137544532}
   - component: {fileID: 8103814321011417883}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: mirror_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,6 +143,7 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 512
+  m_collider: {fileID: 4628962179207273949}
   m_enum: 3
 --- !u!1 &6611394509137451382
 GameObject:
@@ -141,7 +156,7 @@ GameObject:
   - component: {fileID: 6611394509137544534}
   - component: {fileID: 6611394509138347382}
   - component: {fileID: 6611394509139445686}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}

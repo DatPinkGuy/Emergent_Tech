@@ -88,7 +88,8 @@ public class Manager : MonoBehaviour
         {
             var texture2d = (Texture2D) piece.mainTexture;
             var sprite = Sprite.Create(texture2d , new Rect(0, 0, 300, 300), Vector2.zero);
-            m_wallButton[m_currentArrayPlace].image.sprite = sprite;
+            if (texture2d != null) m_wallButton[m_currentArrayPlace].image.sprite = sprite;
+            else m_wallButton[m_currentArrayPlace].image.color = piece.color;
             m_wallButton[m_currentArrayPlace].onClick.AddListener(()=>ManageMaterials(piece, 0));
             m_currentArrayPlace++;
         }

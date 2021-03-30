@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7280914809453723409}
   - component: {fileID: 7280914809454526271}
   - component: {fileID: 7280914809455623679}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: doors_shell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 7280914809453723411}
   - component: {fileID: 7280914809454526257}
   - component: {fileID: 7280914809455623665}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: handles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,7 @@ GameObject:
   - component: {fileID: 7280914809453723413}
   - component: {fileID: 7280914809454526259}
   - component: {fileID: 7280914809455623667}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -247,7 +247,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7280914809453723417}
   - component: {fileID: -9180126283034885190}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: cabinet_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -291,6 +291,7 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 8332500995622594339}
   m_enum: 2
 --- !u!1 &7280914809453355835
 GameObject:
@@ -303,7 +304,7 @@ GameObject:
   - component: {fileID: 7280914809453723419}
   - component: {fileID: 7280914809454526265}
   - component: {fileID: 7280914809455623673}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: legs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -382,7 +383,8 @@ GameObject:
   - component: {fileID: 7280914809453723421}
   - component: {fileID: 7280914809454526267}
   - component: {fileID: 7280914809455623675}
-  m_Layer: 0
+  - component: {fileID: 8332500995622594339}
+  m_Layer: 12
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -450,6 +452,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8332500995622594339
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7280914809453355837}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 200.00014, y: 60.000042, z: 160.42625}
+  m_Center: {x: -0.000022888185, y: -0.000010728844, z: -0.000007629396}
 --- !u!1 &7280914809453355839
 GameObject:
   m_ObjectHideFlags: 0
@@ -461,7 +476,7 @@ GameObject:
   - component: {fileID: 7280914809453723423}
   - component: {fileID: 7280914809454526269}
   - component: {fileID: 7280914809455623677}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: Object017
   m_TagString: Untagged
   m_Icon: {fileID: 0}

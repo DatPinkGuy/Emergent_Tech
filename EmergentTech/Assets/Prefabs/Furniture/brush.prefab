@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6886713673491228632}
   - component: {fileID: 6886713673494128634}
   - component: {fileID: 6886713673492997434}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: brush 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,8 @@ GameObject:
   - component: {fileID: 6886713673491228634}
   - component: {fileID: 6886713673494128636}
   - component: {fileID: 6886713673492997436}
-  m_Layer: 0
+  - component: {fileID: 2766915389613233474}
+  m_Layer: 12
   m_Name: stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,6 +159,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2766915389613233474
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6886713673491069946}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 17.217607, y: 17.217611, z: 11.600345}
+  m_Center: {x: 0.00000047683713, y: 5.6843415e-14, z: 0.0000011920929}
 --- !u!1 &6886713673491069948
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,7 +182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6886713673491228636}
   - component: {fileID: -671658716253765066}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: brush
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,6 +223,7 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 2766915389613233474}
   m_enum: 3
 --- !u!1 &6886713673491069950
 GameObject:
@@ -221,7 +236,7 @@ GameObject:
   - component: {fileID: 6886713673491228638}
   - component: {fileID: 6886713673494128638}
   - component: {fileID: 6886713673492997438}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}

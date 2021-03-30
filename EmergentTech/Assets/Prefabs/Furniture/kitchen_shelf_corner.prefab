@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7420155339843624256}
   - component: {fileID: 7420155339844918626}
   - component: {fileID: 7420155339846049698}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 7420155339843624258}
   - component: {fileID: 7420155339844918628}
   - component: {fileID: 7420155339846049700}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +169,8 @@ GameObject:
   - component: {fileID: 7420155339843624260}
   - component: {fileID: 7420155339844918630}
   - component: {fileID: 7420155339846049702}
-  m_Layer: 0
+  - component: {fileID: 4338300047895512552}
+  m_Layer: 12
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -237,6 +238,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4338300047895512552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7420155339844043108}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 80.82829, y: 21.24103, z: 63.000015}
+  m_Center: {x: -0.0000066757193, y: -0.000016212462, z: -0.000005960466}
 --- !u!1 &7420155339844043110
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,7 +261,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7420155339843624262}
   - component: {fileID: -8055363422056925874}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: kitchen_shelf_corner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -288,4 +302,5 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 512
+  m_collider: {fileID: 4338300047895512552}
   m_enum: 1

@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 5140793695525482194}
   - component: {fileID: 5140793695526285044}
   - component: {fileID: 5140793695527250996}
-  m_Layer: 0
+  - component: {fileID: 1202806181103070463}
+  m_Layer: 12
   m_Name: vase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,6 +80,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1202806181103070463
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5140793695525319410}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 9.99485, y: 9.994853, z: 38.938236}
+  m_Center: {x: 0, y: 0.000000044703484, z: 0.0000076293945}
 --- !u!1 &5140793695525319412
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,7 +104,7 @@ GameObject:
   - component: {fileID: 5140793695525482196}
   - component: {fileID: 5140793695526285046}
   - component: {fileID: 5140793695527250998}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: branches
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5140793695525482198}
   - component: {fileID: -4574767028850846732}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: vase_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,4 +222,5 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 1202806181103070463}
   m_enum: 5

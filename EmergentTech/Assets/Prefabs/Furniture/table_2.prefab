@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8998074470025695177}
   - component: {fileID: -5261251680990815638}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: table_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,6 +50,7 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 8893679809978233016}
   m_enum: 0
 --- !u!1 &8998074470025597933
 GameObject:
@@ -62,7 +63,8 @@ GameObject:
   - component: {fileID: 8998074470025695181}
   - component: {fileID: 8998074470024400877}
   - component: {fileID: 8998074470023400749}
-  m_Layer: 0
+  - component: {fileID: 8893679809978233016}
+  m_Layer: 12
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -130,6 +132,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8893679809978233016
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8998074470025597933}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 79.99999, y: 160.00003, z: 75.01343}
+  m_Center: {x: 0, y: -0.000022888174, z: 0.000011444092}
 --- !u!1 &8998074470025597935
 GameObject:
   m_ObjectHideFlags: 0
@@ -141,7 +156,7 @@ GameObject:
   - component: {fileID: 8998074470025695183}
   - component: {fileID: 8998074470024400879}
   - component: {fileID: 8998074470023400751}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: handles
   m_TagString: Untagged
   m_Icon: {fileID: 0}

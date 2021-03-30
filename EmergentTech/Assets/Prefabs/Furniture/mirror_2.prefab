@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1902237911991357161}
   - component: {fileID: 1902237911994257097}
   - component: {fileID: 1902237911993256969}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902237911990997705}
   m_LocalRotation: {x: -0, y: 0, z: 1, w: -0.0000000754979}
-  m_LocalPosition: {x: -0, y: 0.0121126175, z: 0}
+  m_LocalPosition: {x: -0, y: 0.02, z: 0}
   m_LocalScale: {x: 0.009999999, y: 0.009999999, z: 0.009999999}
   m_Children: []
   m_Father: {fileID: 1902237911991357167}
@@ -90,7 +90,8 @@ GameObject:
   - component: {fileID: 1902237911991357163}
   - component: {fileID: 1902237911994257099}
   - component: {fileID: 1902237911993256971}
-  m_Layer: 0
+  - component: {fileID: 2999079647799159221}
+  m_Layer: 12
   m_Name: frame_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +106,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1902237911990997707}
   m_LocalRotation: {x: -0, y: 0, z: 1, w: -0.0000000754979}
-  m_LocalPosition: {x: -0, y: 0.017035484, z: 0}
+  m_LocalPosition: {x: -0, y: 0.025, z: 0}
   m_LocalScale: {x: 0.009999999, y: 0.009999999, z: 0.009999999}
   m_Children: []
   m_Father: {fileID: 1902237911991357167}
@@ -158,6 +159,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &2999079647799159221
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1902237911990997707}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 68.36327, y: 3.8643, z: 47.50454}
+  m_Center: {x: -1.1368684e-13, y: -0.00000071525574, z: 0.000001907349}
 --- !u!1 &1902237911990997711
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,7 +182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1902237911991357167}
   - component: {fileID: 5699644568427485566}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: mirror_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,4 +222,5 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 512
+  m_collider: {fileID: 2999079647799159221}
   m_enum: 3

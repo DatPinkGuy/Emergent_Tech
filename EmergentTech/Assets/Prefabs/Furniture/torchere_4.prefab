@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2451527948515740235}
   - component: {fileID: 8388383304233898389}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: torchere_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -50,6 +50,7 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 6919779809874721003}
   m_enum: 4
 --- !u!1 &2451527948516103789
 GameObject:
@@ -62,7 +63,7 @@ GameObject:
   - component: {fileID: 2451527948515740237}
   - component: {fileID: 2451527948512873069}
   - component: {fileID: 2451527948513839277}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: plafond
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -141,7 +142,8 @@ GameObject:
   - component: {fileID: 2451527948515740239}
   - component: {fileID: 2451527948512873071}
   - component: {fileID: 2451527948513839279}
-  m_Layer: 0
+  - component: {fileID: 6919779809874721003}
+  m_Layer: 12
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,3 +211,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6919779809874721003
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2451527948516103791}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 23.414394, y: 118.71419, z: 23.174246}
+  m_Center: {x: 0, y: -8.825679, z: -0.0000019073566}

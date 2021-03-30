@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 5985946873704218313}
   - component: {fileID: 5985946873700794095}
   - component: {fileID: 5985946873701792815}
-  m_Layer: 0
+  - component: {fileID: 1214910388710847728}
+  m_Layer: 12
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,6 +80,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &1214910388710847728
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5985946873703719657}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 70.59532, y: 30.570879, z: 117.92873}
+  m_Center: {x: 1.4210584e-14, y: 0.0000052452087, z: -0.000003814699}
 --- !u!1 &5985946873703719661
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5985946873704218317}
   - component: {fileID: -5249963470540761361}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: pouf
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,6 +143,7 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 1214910388710847728}
   m_enum: 0
 --- !u!1 &5985946873703719663
 GameObject:
@@ -141,7 +156,7 @@ GameObject:
   - component: {fileID: 5985946873704218319}
   - component: {fileID: 5985946873700794093}
   - component: {fileID: 5985946873701792813}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: legs
   m_TagString: Untagged
   m_Icon: {fileID: 0}

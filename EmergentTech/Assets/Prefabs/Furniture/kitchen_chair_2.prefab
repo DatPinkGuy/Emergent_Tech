@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 5864073994031427072}
   - component: {fileID: 5864073994032721446}
   - component: {fileID: 5864073994033720550}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: seat004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 5864073994031427074}
   - component: {fileID: 5864073994032721440}
   - component: {fileID: 5864073994033720544}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: wood_004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5864073994031427076}
   - component: {fileID: -6303326143789897258}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: kitchen_chair_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,6 +209,7 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 598671755051857997}
   m_enum: 1
 --- !u!1 &5864073994031788582
 GameObject:
@@ -221,7 +222,8 @@ GameObject:
   - component: {fileID: 5864073994031427078}
   - component: {fileID: 5864073994032721444}
   - component: {fileID: 5864073994033720548}
-  m_Layer: 0
+  - component: {fileID: 598671755051857997}
+  m_Layer: 12
   m_Name: wood_003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,3 +291,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &598671755051857997
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5864073994031788582}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 41.797436, y: 100.84832, z: 52.800255}
+  m_Center: {x: -0.0000019073486, y: 0.000015258789, z: -0.0000047683693}

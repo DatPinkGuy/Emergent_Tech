@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 9140363992685418280}
   - component: {fileID: 1309047387103993933}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: sofa_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -56,6 +56,7 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 7651858600472452367}
   m_enum: 0
 --- !u!1 &9140363992685775632
 GameObject:
@@ -68,7 +69,8 @@ GameObject:
   - component: {fileID: 9140363992685418288}
   - component: {fileID: 9140363992688842512}
   - component: {fileID: 9140363992687711696}
-  m_Layer: 0
+  - component: {fileID: 7651858600472452367}
+  m_Layer: 12
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -136,6 +138,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &7651858600472452367
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9140363992685775632}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 201.37215, y: 99.056854, z: 50.286213}
+  m_Center: {x: 0.000003814697, y: -0.000003993512, z: -0.0000047683707}
 --- !u!1 &9140363992685775634
 GameObject:
   m_ObjectHideFlags: 0
@@ -147,7 +162,7 @@ GameObject:
   - component: {fileID: 9140363992685418290}
   - component: {fileID: 9140363992688842514}
   - component: {fileID: 9140363992687711698}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: back 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -226,7 +241,7 @@ GameObject:
   - component: {fileID: 9140363992685418292}
   - component: {fileID: 9140363992688842516}
   - component: {fileID: 9140363992687711700}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: right
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -305,7 +320,7 @@ GameObject:
   - component: {fileID: 9140363992685418294}
   - component: {fileID: 9140363992688842518}
   - component: {fileID: 9140363992687711702}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: seat 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -384,7 +399,7 @@ GameObject:
   - component: {fileID: 9140363992685418296}
   - component: {fileID: 9140363992688842520}
   - component: {fileID: 9140363992687711704}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: legs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -463,7 +478,7 @@ GameObject:
   - component: {fileID: 9140363992685418298}
   - component: {fileID: 9140363992688842522}
   - component: {fileID: 9140363992687711706}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: left
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -542,7 +557,7 @@ GameObject:
   - component: {fileID: 9140363992685418300}
   - component: {fileID: 9140363992688842524}
   - component: {fileID: 9140363992687711708}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: seat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -621,7 +636,7 @@ GameObject:
   - component: {fileID: 9140363992685418302}
   - component: {fileID: 9140363992688842526}
   - component: {fileID: 9140363992687711710}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: back
   m_TagString: Untagged
   m_Icon: {fileID: 0}

@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1768465914625061968}
   - component: {fileID: 1768465914625832048}
   - component: {fileID: 1768465914626963120}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: door_shell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1768465914625061970}
   - component: {fileID: 2120330211438228870}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tv_table_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -131,6 +131,7 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 6311031530831368692}
   m_enum: 0
 --- !u!1 &1768465914624960628
 GameObject:
@@ -143,7 +144,7 @@ GameObject:
   - component: {fileID: 1768465914625061972}
   - component: {fileID: 1768465914625832052}
   - component: {fileID: 1768465914626963124}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +223,7 @@ GameObject:
   - component: {fileID: 1768465914625061974}
   - component: {fileID: 1768465914625832054}
   - component: {fileID: 1768465914626963126}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: handles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -301,7 +302,8 @@ GameObject:
   - component: {fileID: 1768465914625061980}
   - component: {fileID: 1768465914625832050}
   - component: {fileID: 1768465914626963122}
-  m_Layer: 0
+  - component: {fileID: 6311031530831368692}
+  m_Layer: 12
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -369,3 +371,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6311031530831368692
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1768465914624960636}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 89.99999, y: 30.500008, z: 50.00001}
+  m_Center: {x: 0, y: 0.24999982, z: 25.000006}

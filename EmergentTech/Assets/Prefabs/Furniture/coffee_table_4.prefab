@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 3586489947093439434}
   - component: {fileID: 3586489947094438154}
   - component: {fileID: 5812370145227433844}
-  m_Layer: 0
+  - component: {fileID: 2646837813224109016}
+  m_Layer: 12
   m_Name: coffee_table_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,4 +98,18 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 2646837813224109016}
   m_enum: 0
+--- !u!65 &2646837813224109016
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3586489947096371146}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 35.32807, y: 35.292007, z: 16.79227}
+  m_Center: {x: 0, y: 0, z: 8.334076}

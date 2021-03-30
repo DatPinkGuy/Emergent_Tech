@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7318593208987900448}
   - component: {fileID: 7318593208990767616}
   - component: {fileID: 7318593208989669568}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: button
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,8 @@ GameObject:
   - component: {fileID: 7318593208987900450}
   - component: {fileID: 7318593208990767618}
   - component: {fileID: 7318593208989669570}
-  m_Layer: 0
+  - component: {fileID: 3918033202533501380}
+  m_Layer: 12
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -158,6 +159,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &3918033202533501380
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7318593208987469314}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 51.90544, y: 82.5597, z: 102.41996}
+  m_Center: {x: 0.0000009536784, y: -0.00002098084, z: 0.00001335144}
 --- !u!1 &7318593208987469318
 GameObject:
   m_ObjectHideFlags: 0
@@ -168,7 +182,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7318593208987900454}
   - component: {fileID: 2005277356713132045}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: toilet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -208,4 +222,5 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 3918033202533501380}
   m_enum: 3

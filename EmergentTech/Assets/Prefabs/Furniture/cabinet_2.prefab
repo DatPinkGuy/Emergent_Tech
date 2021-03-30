@@ -11,7 +11,8 @@ GameObject:
   - component: {fileID: 5462749885941312000}
   - component: {fileID: 5462749885942082080}
   - component: {fileID: 5462749885943212256}
-  m_Layer: 0
+  - component: {fileID: 6954217659499397767}
+  m_Layer: 12
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -79,6 +80,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6954217659499397767
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5462749885941020192}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 212.04237, y: 200.00012, z: 104.87267}
+  m_Center: {x: 0.000019073488, y: 0.000022888184, z: 0.000017523771}
 --- !u!1 &5462749885941020194
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,7 +104,7 @@ GameObject:
   - component: {fileID: 5462749885941312002}
   - component: {fileID: 5462749885942082082}
   - component: {fileID: 5462749885943212258}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: mirror
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -169,7 +183,7 @@ GameObject:
   - component: {fileID: 5462749885941312004}
   - component: {fileID: 5462749885942082084}
   - component: {fileID: 5462749885943212260}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: handles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -248,7 +262,7 @@ GameObject:
   - component: {fileID: 5462749885941312006}
   - component: {fileID: 5462749885942082086}
   - component: {fileID: 5462749885943212262}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -326,7 +340,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5462749885941312012}
   - component: {fileID: -3515654235588549119}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: cabinet_2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -368,4 +382,5 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 6954217659499397767}
   m_enum: 2

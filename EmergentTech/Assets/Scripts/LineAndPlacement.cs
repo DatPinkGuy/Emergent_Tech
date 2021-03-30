@@ -18,10 +18,12 @@ public class LineAndPlacement : MonoBehaviour
     private bool m_isPressedRotateLeft;
     private bool m_isPressedRotateRight;
     private bool m_pressedOnce;
+    private bool m_isPressedPickUp;
     private LayerMask m_uiLayerMask = 5;
     private LayerMask m_roofLayerMask = 10;
     private LayerMask m_wallLayerMask = 9;
     private LayerMask m_floorLayerMask = 8;
+    private LayerMask m_furnitureLayerMask = 12;
 
 
     private void OnValidate()
@@ -66,6 +68,11 @@ public class LineAndPlacement : MonoBehaviour
             if(!m_manager.SelectedObject)
             {
                 if (hitLayer == m_uiLayerMask) ManageUILine();
+                else if (hitLayer == m_furnitureLayerMask)
+                {
+                    ManageMovementLine(m_hit.point);
+                    CheckForPickUp();
+                }
                 else m_lineRenderer.enabled = false;
             }
             else
@@ -117,8 +124,10 @@ public class LineAndPlacement : MonoBehaviour
 
     private void PlaceObject()
     {
-        if(m_rightHand.TryGetFeatureValue(CommonUsages.triggerButton,out m_isPressedPlace) && m_isPressedPlace)
-            m_manager.SelectedObject = null;
+        if (!m_rightHand.TryGetFeatureValue(CommonUsages.triggerButton, out m_isPressedPlace) ||
+            !m_isPressedPlace) return;
+        m_manager.SelectedObjScript.Collider.enabled = true;
+        m_manager.SelectedObject = null;
     }
 
     private void Rotate()
@@ -136,5 +145,13 @@ public class LineAndPlacement : MonoBehaviour
             m_pressedOnce = true;
         }
         if (!m_isPressedRotateLeft && !m_isPressedRotateRight) m_pressedOnce = false;
+    }
+
+    private void CheckForPickUp()
+    {
+        if (!m_rightHand.TryGetFeatureValue(CommonUsages.primaryButton, out m_isPressedPickUp) ||
+            !m_isPressedPickUp) return;
+        m_manager.SelectedObject = m_hit.transform.parent != null ? m_hit.transform.parent.gameObject : m_hit.transform.gameObject;
+        m_manager.SelectedObjScript.Collider.enabled = false;
     }
 }

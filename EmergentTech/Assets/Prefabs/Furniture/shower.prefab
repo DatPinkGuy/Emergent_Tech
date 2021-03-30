@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3703097266970892560}
   - component: {fileID: 3703097266973792562}
   - component: {fileID: 3703097266972662770}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: shell
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 3703097266970892562}
   - component: {fileID: 3703097266973792564}
   - component: {fileID: 3703097266972662772}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3703097266970892564}
   - component: {fileID: 6761826439765551723}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: shower
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -213,6 +213,7 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 8118110433260786490}
   m_enum: 3
 --- !u!1 &3703097266970723638
 GameObject:
@@ -225,7 +226,7 @@ GameObject:
   - component: {fileID: 3703097266970892566}
   - component: {fileID: 3703097266973792566}
   - component: {fileID: 3703097266972662774}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: habdles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -304,7 +305,8 @@ GameObject:
   - component: {fileID: 3703097266970892568}
   - component: {fileID: 3703097266973792568}
   - component: {fileID: 3703097266972662776}
-  m_Layer: 0
+  - component: {fileID: 8118110433260786490}
+  m_Layer: 12
   m_Name: glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -372,6 +374,19 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &8118110433260786490
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3703097266970723640}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 87.91808, y: 85.04342, z: 71.000015}
+  m_Center: {x: 0, y: -0.000000022351742, z: 0.0000038146964}
 --- !u!1 &3703097266970723642
 GameObject:
   m_ObjectHideFlags: 0
@@ -383,7 +398,7 @@ GameObject:
   - component: {fileID: 3703097266970892570}
   - component: {fileID: 3703097266973792570}
   - component: {fileID: 3703097266972662778}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: stand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -462,7 +477,7 @@ GameObject:
   - component: {fileID: 3703097266970892572}
   - component: {fileID: 3703097266973792572}
   - component: {fileID: 3703097266972662780}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: skirting
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -541,7 +556,7 @@ GameObject:
   - component: {fileID: 3703097266970892574}
   - component: {fileID: 3703097266973792574}
   - component: {fileID: 3703097266972662782}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}

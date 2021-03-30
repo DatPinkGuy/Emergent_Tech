@@ -12,7 +12,8 @@ GameObject:
   - component: {fileID: 7325209876984751955}
   - component: {fileID: 7325209876983621011}
   - component: {fileID: 9001208056288054152}
-  m_Layer: 0
+  - component: {fileID: 8984527944115563894}
+  m_Layer: 12
   m_Name: rack_4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -97,4 +98,18 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 8984527944115563894}
   m_enum: 0
+--- !u!65 &8984527944115563894
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7325209876985559891}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 15.357084, y: 31.151985, z: 44.771053}
+  m_Center: {x: -0.000010728836, y: -0.0000014305118, z: 22.261671}

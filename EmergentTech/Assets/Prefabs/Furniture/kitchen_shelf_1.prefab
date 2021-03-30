@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 4633718822232623621}
   - component: {fileID: 4633718822229232167}
   - component: {fileID: 4633718822230198503}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4633718822232135205}
   m_LocalRotation: {x: -0.0000003371748, y: 1.03458874e-13, z: -0.707107, w: 0.70710665}
-  m_LocalPosition: {x: -0.127, y: 0.258, z: 0.005}
+  m_LocalPosition: {x: -0.315, y: 0.258, z: 0.005}
   m_LocalScale: {x: 0.009999999, y: 0.009999999, z: 0.009999999}
   m_Children: []
   m_Father: {fileID: 4633718822232623625}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 4633718822232623623}
   - component: {fileID: 4633718822229232169}
   - component: {fileID: 4633718822230198505}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: handless
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -105,7 +105,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4633718822232135207}
   m_LocalRotation: {x: 0.00000020511526, y: 0.7071068, z: -0.00000020511526, w: 0.7071068}
-  m_LocalPosition: {x: -0.157, y: 0.265, z: -0.128}
+  m_LocalPosition: {x: -0.345, y: 0.265, z: -0.128}
   m_LocalScale: {x: 0.006902976, y: 0.007625067, z: 0.003976309}
   m_Children: []
   m_Father: {fileID: 4633718822232623625}
@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4633718822232623625}
   - component: {fileID: 571030503993610370}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: kitchen_shelf_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,6 +211,7 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 512
+  m_collider: {fileID: 6381963823919752706}
   m_enum: 1
 --- !u!1 &4633718822232135211
 GameObject:
@@ -223,7 +224,7 @@ GameObject:
   - component: {fileID: 4633718822232623627}
   - component: {fileID: 4633718822229232171}
   - component: {fileID: 4633718822230198507}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: inside
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -238,7 +239,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4633718822232135211}
   m_LocalRotation: {x: -0.0000003371748, y: 1.03458874e-13, z: -0.707107, w: 0.70710665}
-  m_LocalPosition: {x: 0.03, y: -0.256, z: 0.005}
+  m_LocalPosition: {x: -0.158, y: -0.256, z: 0.005}
   m_LocalScale: {x: 0.009999999, y: 0.006824997, z: 0.005559953}
   m_Children: []
   m_Father: {fileID: 4633718822232623625}
@@ -302,7 +303,7 @@ GameObject:
   - component: {fileID: 4633718822232623629}
   - component: {fileID: 4633718822229232173}
   - component: {fileID: 4633718822230198509}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: glass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -317,7 +318,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4633718822232135213}
   m_LocalRotation: {x: -0.0000003371748, y: 1.03458874e-13, z: -0.707107, w: 0.70710665}
-  m_LocalPosition: {x: -0.125, y: 0.258, z: 0.005}
+  m_LocalPosition: {x: -0.313, y: 0.258, z: 0.005}
   m_LocalScale: {x: 0.009999999, y: 0.009999999, z: 0.009999999}
   m_Children: []
   m_Father: {fileID: 4633718822232623625}
@@ -381,7 +382,8 @@ GameObject:
   - component: {fileID: 4633718822232623631}
   - component: {fileID: 4633718822229232175}
   - component: {fileID: 4633718822230198511}
-  m_Layer: 0
+  - component: {fileID: 6381963823919752706}
+  m_Layer: 12
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -396,7 +398,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4633718822232135215}
   m_LocalRotation: {x: -0.0000003371748, y: 1.03458874e-13, z: -0.707107, w: 0.70710665}
-  m_LocalPosition: {x: 0.036, y: 0, z: 0.005}
+  m_LocalPosition: {x: -0.152, y: 0, z: 0.005}
   m_LocalScale: {x: 0.009999999, y: 0.009999999, z: 0.009999999}
   m_Children: []
   m_Father: {fileID: 4633718822232623625}
@@ -449,3 +451,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &6381963823919752706
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4633718822232135215}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 102.83778, y: 30.000008, z: 63.000015}
+  m_Center: {x: -1.3010426e-18, y: -0.00001907349, z: 0.00000780821}

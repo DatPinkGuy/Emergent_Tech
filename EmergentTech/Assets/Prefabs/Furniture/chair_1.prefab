@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 2969523675202034193}
   - component: {fileID: 2969523675204934199}
   - component: {fileID: 2969523675203803383}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: plastic
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 2969523675202034195}
   - component: {fileID: 2969523675204934193}
   - component: {fileID: 2969523675203803377}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: seat
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2969523675202034197}
   - component: {fileID: 7068268963837736938}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: chair_1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,6 +209,7 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 4323107992131092040}
   m_enum: 0
 --- !u!1 &2969523675201537591
 GameObject:
@@ -221,7 +222,8 @@ GameObject:
   - component: {fileID: 2969523675202034199}
   - component: {fileID: 2969523675204934197}
   - component: {fileID: 2969523675203803381}
-  m_Layer: 0
+  - component: {fileID: 4323107992131092040}
+  m_Layer: 12
   m_Name: metal
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -289,3 +291,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4323107992131092040
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2969523675201537591}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 49.571396, y: 77.04639, z: 55.44793}
+  m_Center: {x: -0.000003814699, y: 0.000011444094, z: 0.000011444095}

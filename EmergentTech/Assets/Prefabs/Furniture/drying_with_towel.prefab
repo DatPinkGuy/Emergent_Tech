@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 6455865677901788065}
   - component: {fileID: 6455865677898888071}
   - component: {fileID: 6455865677900017991}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: towel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -89,7 +89,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6455865677901788069}
   - component: {fileID: 2847729604529261250}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: drying_with_towel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -129,6 +129,7 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 512
+  m_collider: {fileID: 4710690169379046393}
   m_enum: 3
 --- !u!1 &6455865677902212999
 GameObject:
@@ -141,7 +142,8 @@ GameObject:
   - component: {fileID: 6455865677901788071}
   - component: {fileID: 6455865677898888069}
   - component: {fileID: 6455865677900017989}
-  m_Layer: 0
+  - component: {fileID: 4710690169379046393}
+  m_Layer: 12
   m_Name: towel_dryer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -209,3 +211,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4710690169379046393
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6455865677902212999}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.10114498, y: 0.52665985, z: 0.61767524}
+  m_Center: {x: -0.0000008940697, y: 1.2878549e-14, z: 0.00000035762787}

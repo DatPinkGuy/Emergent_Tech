@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 3749783090167157265}
   - component: {fileID: 3749783090165862967}
   - component: {fileID: 3749783090164863223}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: door
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +90,7 @@ GameObject:
   - component: {fileID: 3749783090167157267}
   - component: {fileID: 3749783090165862961}
   - component: {fileID: 3749783090164863217}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: tabletop
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3749783090167157269}
   - component: {fileID: -2479639960181532969}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: modular_kitchen_table_3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,6 +211,7 @@ MonoBehaviour:
   m_layerToPlaceOn:
     serializedVersion: 2
     m_Bits: 256
+  m_collider: {fileID: 4975104780608977854}
   m_enum: 1
 --- !u!1 &3749783090166861367
 GameObject:
@@ -223,7 +224,7 @@ GameObject:
   - component: {fileID: 3749783090167157271}
   - component: {fileID: 3749783090165862965}
   - component: {fileID: 3749783090164863221}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: socle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -302,7 +303,7 @@ GameObject:
   - component: {fileID: 3749783090167157277}
   - component: {fileID: 3749783090165862963}
   - component: {fileID: 3749783090164863219}
-  m_Layer: 0
+  m_Layer: 12
   m_Name: handle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -381,7 +382,8 @@ GameObject:
   - component: {fileID: 3749783090167157279}
   - component: {fileID: 3749783090165862973}
   - component: {fileID: 3749783090164863229}
-  m_Layer: 0
+  - component: {fileID: 4975104780608977854}
+  m_Layer: 12
   m_Name: base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -449,3 +451,16 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!65 &4975104780608977854
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3749783090166861375}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 51.39905, y: 55.147648, z: 73.74911}
+  m_Center: {x: -0.000011444796, y: -0.000001907349, z: 0.0000076293936}

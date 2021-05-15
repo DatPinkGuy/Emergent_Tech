@@ -14,4 +14,5 @@ Systems created for this project allow for:</br>
 4. Walls and floors can be changed to different ones</br>
 ![](https://github.com/DatPinkGuy/Emergent_Tech/blob/main/GitGifs/floor.gif)</br></br>
 5. Line renderer only appears when user can interact with something
+![](https://github.com/DatPinkGuy/Emergent_Tech/blob/main/GitGifs/render.gif)</br></br>
 </br>
